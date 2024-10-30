@@ -8,6 +8,16 @@ O **Projeto AirLink** é uma aplicação web simples que permite controlar um ar
 - **Verificação de Status**: Consulte o status atual do ar-condicionado (ligado ou desligado).
 - **Botões Interativos**: Interface simples com botões que simulam um controle remoto.
 
+## Alunos
+
+- Iury Silva de Almeida
+- Bruno Lopes de Carvalho
+- Kassio Barros Botelho Filho
+
+## Professor
+
+- Jésus Franco Bueno
+
 ## Tecnologias Utilizadas
 
 - **HTML**: Para a estrutura da página.
@@ -26,7 +36,7 @@ Você pode acessar a aplicação através do seguinte link: [Projeto AirLink](ht
 
 ## Considerações Finais
 
-Este projeto é um exemplo básico de controle de dispositivos IoT. Ele pode ser expandido com mais funcionalidades, como controle de temperatura, modo de ventilação, e muito mais.
+Este projeto foi desenvolvido como parte da disciplina de Microcontroladores na Universidade Federal de Mato Grosso (UFMT) e é um exemplo básico de controle de dispositivos IoT. Ele pode ser expandido com mais funcionalidades, como controle de temperatura, modo de ventilação, e muito mais.
 
 Sinta-se à vontade para contribuir e melhorar este projeto!
 
