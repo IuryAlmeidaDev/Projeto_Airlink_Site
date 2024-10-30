@@ -13,6 +13,7 @@ O **Projeto AirLink** é uma aplicação web simples que permite controlar um ar
 - Iury Silva de Almeida
 - Bruno Lopes de Carvalho
 - Kassio Barros Botelho Filho
+- Gustavo Henrique Torres
 
 ## Professor
 
