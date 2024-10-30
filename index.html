@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o CSS -->
+    <title>Projeto AirLink</title>
+</head>
+<body>
+    <div class="container">
+        <h1>AirLink</h1>
+        <div class="status" id="status">Status: Desligado</div> <!-- Elemento para status -->
+        <div class="button-row">
+            <button class="control-btn" onclick="turnOn()">On</button>
+            <button class="control-btn" onclick="turnOff()">Off</button>
+        </div>
+        <div class="button-row">
+            <button class="control-btn disabled">-</button>
+            <button class="control-btn disabled">+</button>
+        </div>
+        <div class="button-row">
+            <button class="control-btn disabled">Fan</button>
+            <button class="control-btn disabled">Direção</button>
+        </div>
+        <div class="button-row">
+            <button class="control-btn disabled">Sleep</button>
+            <button class="control-btn disabled">Eco</button>
+        </div>
+        <button class="status-btn" onclick="checkStatus()">Verificar Status</button> <!-- Botão para verificar status -->
+    </div>
+    <script src="script.js"></script> <!-- Link para o JS -->
+</body>
+</html>

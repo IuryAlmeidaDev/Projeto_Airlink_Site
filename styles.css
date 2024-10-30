@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #121212, #1e1e1e); /* Gradiente de fundo escuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; /* Remove margens padrão */
+}
+
+.container {
+    text-align: center;
+    background: #2a2a2a; /* Cor de fundo da div ajustada para um tom mais claro */
+    padding: 15px; /* Padding reduzido */
+    border-radius: 15px; /* Bordas mais arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra escura */
+    border: 2px solid #3f51b5; /* Borda com cor vibrante */
+    width: 280px; /* Largura reduzida da área do controle */
+}
+
+h1 {
+    color: #3f51b5; /* Cor do título vibrante */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.status {
+    font-size: 18px; /* Tamanho da fonte para status */
+    color: #00e676; /* Cor do status (verde claro) */
+    margin: 10px 0; /* Espaçamento em cima e embaixo */
+}
+
+.control-btn {
+    width: 70px; /* Largura ajustada */
+    height: 70px; /* Altura ajustada */
+    font-size: 18px; /* Tamanho da fonte */
+    border-radius: 10px; /* Bordas arredondadas */
+    border: none; /* Remover borda padrão */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    margin: 5px; /* Espaço entre os botões */
+    transition: background-color 0.3s, transform 0.2s; /* Efeitos de animação */
+    background-color: #4caf50; /* Cor de fundo padronizada para todos os botões */
+    color: #ffffff; /* Cor do texto dos botões */
+}
+
+.control-btn:hover {
+    background-color: #66bb6a; /* Cor ao passar o mouse */
+    transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
+}
+
+/* Estado de botão desativado */
+.control-btn.disabled {
+    background-color: #757575; /* Cor para botões desativados */
+    color: #b0bec5; /* Cor do texto para botões desativados */
+    cursor: not-allowed; /* Cursor de não permitido */
+    pointer-events: none; /* Impede interação com o botão */
+}
+
+.control-btn:hover.disabled {
+    background-color: #757575; /* Mantém a mesma cor ao passar o mouse em botões desativados */
+}
+
+/* Alinhamento e espaçamento dos botões */
+.button-row {
+    display: flex;
+    justify-content: center; /* Centraliza os botões */
+    margin-bottom: 10px; /* Espaço abaixo de cada linha de botões */
+}
+
+.status-btn {
+    width: 120px; /* Largura do botão de verificar */
+    height: 50px; /* Altura do botão de verificar */
+    font-size: 18px; /* Tamanho da fonte */
+    background-color: #3f51b5; /* Cor para o botão de verificar */
+    color: white; /* Texto branco */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: none; /* Remover borda padrão */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    margin-top: 10px; /* Espaço acima do botão de verificar */
+    transition: background-color 0.3s; /* Efeito de animação */
+}
+
+.status-btn:hover {
+    background-color: #37474f; /* Cor ao passar o mouse */
+}
+
+/* Animações de transição */
+.container, .control-btn, .status-btn {
+    transition: all 0.3s ease; /* Suaviza as transições */
+}
